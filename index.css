@@ -1,0 +1,114 @@
+/* No CSS libraries used */
+
+/* Font used - Roboto */
+
+body{
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* Navigation Bar */
+.navbar{
+
+    display: flex;
+    justify-content: center;
+    background-color: #494d4a;
+    padding: 10px;
+    
+
+}
+
+.logo{
+    
+    height: 50px;
+    width: 75px;
+    
+}
+
+.title{
+        
+    color: white;
+    
+}
+
+/* Input Box */
+
+input{
+
+   width: 100%;
+   padding: 10px;
+   border: 1px solid black;
+   border-radius: 5px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+button{
+
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #494d4a;
+    color: white;
+    border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
+.data-input{
+
+    display: flex ;
+    margin: 2%;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.inputs{
+
+    flex: 60px;
+
+}
+
+/* Display - Users */
+
+.user-data{
+
+    display: flex;
+    flex-wrap:wrap ;
+    
+
+}
+
+.card{
+    flex: 400px;
+    margin-top: 3%;
+}
+
+
+
+/* User Cards */
+
+.user-img{
+
+    height: 250px;
+    border-radius: 50%;
+}
+
+.card{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+.card-item{
+
+    padding: 5px;
+
+}
+
+.header{
+    text-align: center;
+}
